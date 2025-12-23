@@ -1,1 +1,13 @@
-
+streamlit
+PyMuPDF
+opencv-python-headless
+numpy
+presidio-analyzer
+moviepy
+pydub
+pycryptodome
+Pillow
+piexif
+mutagen
+pytesseract
+streamlit-drawable-canvas
