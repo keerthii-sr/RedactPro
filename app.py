@@ -594,4 +594,4 @@ with tabs[2]:
                 st.text_area("Decrypted Text", dec.decode("utf-8", errors="ignore"), height=300)
             st.download_button("⬇️ Download Decrypted File", dec, file_name="decrypted." + dec_file.name.split(".")[-1], key="dec_dl")
         except Exception as e:
-            st.error(f"Decryption failed: {e}")
+
