@@ -2,7 +2,10 @@
 import streamlit as st
 import fitz, io, tempfile, cv2, numpy as np
 from presidio_analyzer import AnalyzerEngine
-from moviepy.editor import VideoFileClip
+# from moviepy.editor import VideoFileClip
+# from pydub import AudioSegment
+# from pydub.generators import Sine
+# import cv2
 from pydub import AudioSegment
 from pydub.generators import Sine
 from Crypto.Cipher import AES
@@ -206,3 +209,4 @@ with tabs[2]:
             st.error("Invalid key or file")
 
 # ---------------- END ----------------
+
